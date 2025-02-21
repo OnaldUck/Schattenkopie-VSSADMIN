@@ -1,6 +1,7 @@
 # Schattenkopie-VSSADMIN
 Schttenkopie nutzen um nicht nur geänderte sondern auch gelöschte Dateien wieder zu bekommen.
 Man kann es wie folgt einschalten, auch wenn Computerschutz grau und deaktivert ist
+![Image](https://github.com/user-attachments/assets/8a0597dc-fd57-41d4-aefe-e68d409ecc10)
 ```
 wmic /namespace:\\root\default path SystemRestore call Enable d:\
 ```
