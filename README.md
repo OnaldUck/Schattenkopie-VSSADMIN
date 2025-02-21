@@ -15,4 +15,6 @@ Die Schattenkopie in einen Ordner mounten. Zunächst mit folgenden Kommando aufl
 vssadmin list shadows
 ```
 anschliessend mit MKLINK in einen Ordner maounten. Der abschliessende Backslash ist wichtig
-`mklink /d a:\vss \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\`
+```
+mklink /d a:\vss \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\
+```
