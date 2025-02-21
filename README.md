@@ -2,7 +2,8 @@
 Schttenkopie nutzen um nicht nur geänderte sondern auch gelöschte Dateien wieder zu bekommen.
 Man kann es wie folgt einschalten, auch wenn Computerschutz grau und deaktivert ist
 
-![Image](https://github.com/user-attachments/assets/8a0597dc-fd57-41d4-aefe-e68d409ecc10)
+![computerschutz](https://github.com/user-attachments/assets/97c6affc-f2f2-4a38-b2e1-5beefa9d50b9)
+
 
 ```
 wmic /namespace:\\root\default path SystemRestore call Enable d:\
@@ -21,3 +22,4 @@ anschliessend mit MKLINK in einen Ordner maounten. Der abschliessende Backslash 
 ```
 mklink /d a:\vss \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\
 ```
+
