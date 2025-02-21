@@ -1,0 +1,2 @@
+# Schattenkopie-VSSADMIN
+Schttenkopie nutzen
